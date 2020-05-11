@@ -11,26 +11,26 @@ Given the following spec, dive into the code and fix one problem at a time until
 
 to run the program, type `ruby runner.rb`
 
-__Remember!__  
-1. read your error messages carefully, check error messages and line numbers  
-2. use pry or irb to check your assumptions!  
-3. not all bugs will throw errors, check the output against the spec!  
-4. your program is only as good as the data you feed it!  
-  
-When running for the first time, output should be: 
+__Remember!__
+1. read your error messages carefully, check error messages and line numbers
+2. use pry or irb to check your assumptions!
+3. not all bugs will throw errors, check the output against the spec!
+4. your program is only as good as the data you feed it!
+
+When running for the first time, output should be:
 ```
-Welcome to Ruby Console Jukebox!  
+Welcome to Ruby Console Jukebox!
 Enter a command to continue. Type 'help' for a list of commands.
 ```
 user enters `help`:
 ```
-Never worked a jukebox, eh? Pretty standard. Available commands are:  
-'help' - shows this menu  
-'list' - lists the whole song library  
-or you can enter an artist's name to show that artist's songs  
-or you can enter a song title to play that song!  
-  
-Enter a command to continue. Type 'help' for a list of commands.  
+Never worked a jukebox, eh? Pretty standard. Available commands are:
+'help' - shows this menu
+'list' - lists the whole song library
+or you can enter an artist's name to show that artist's songs
+or you can enter a song title to play that song!
+
+Enter a command to continue. Type 'help' for a list of commands.
 ```
 
 user enters `list`:
@@ -56,7 +56,7 @@ Sports:
 	I Want a New Drug
 	If This is It
 	Heart of Rock and Roll
-	
+
 Enter a command to continue. Type 'help' for a list of commands.
 
 ```
